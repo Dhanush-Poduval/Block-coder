@@ -17,8 +17,8 @@ export default function Page() {
           <Link 
             href={`/${item.path}`} 
             key={item.path}
-            className="block" // Added for better link handling
-          >
+            className="block"
+          > 
             <button
               className="relative px-12 py-6 text-3xl font-extrabold text-white uppercase tracking-widest transition-all bg-gray-800 border-8 border-gray-700 hover:bg-gray-700 hover:border-gray-600 active:translate-y-2"
               style={{
