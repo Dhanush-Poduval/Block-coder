@@ -136,4 +136,4 @@ contract EduChain is ERC721, AccessControl {
     {
         return super.supportsInterface(interfaceId);
     }
-}   how do i deploy this in my project
+}   
