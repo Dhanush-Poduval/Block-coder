@@ -1,0 +1,35 @@
+[
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getCertificate",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_studentId",
+          "type": "uint256"
+        },
+        {
+          "name": "_certificateData",
+          "type": "string"
+        }
+      ],
+      "name": "issueCertificate",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+  
