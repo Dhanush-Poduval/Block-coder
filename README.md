@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+BlockCoder is an innovative platform that combines AI-powered competitive coding tutoring with blockchain-based credentialing. Designed for students, developers, and coding enthusiasts, BlockCoder provides personalized learning experiences, verifiable achievements, and a gamified environment that encourages consistent growth.
 
-## Getting Started
+🚀 Features
+🤖 AI-Powered Tutoring: Get real-time guidance, hints, and code feedback tailored to your learning style and skill level.
 
-First, run the development server:
+🔒 Blockchain Credentialing: Your skills and accomplishments are verified and stored on the blockchain for transparent, tamper-proof validation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🧩 Gamified Learning: Earn rewards, XP, and badges as you solve problems and level up.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌐 Decentralized Reputation System: Build and showcase your coding profile based on community trust and on-chain credentials.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+📊 Skill Analytics: Track your performance, identify strengths and weaknesses, and get personalized recommendations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🛠️ Tech Stack
+Frontend: React, Tailwind CSS, Framer Motion
 
-## Learn More
+Backend: FastAPI, Firebase (Auth + Firestore)
 
-To learn more about Next.js, take a look at the following resources:
+AI Tutoring Engine: OpenAI/Gemini APIs (for personalized code insights)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Blockchain: Ethereum, Solidity, Web3.py
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Credentials: Smart Contracts, IPFS/Polygon for low-cost decentralized verification
 
-## Deploy on Vercel
+📦 Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/your-username/blockcoder.git
+cd blockcoder
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install frontend dependencies
+cd frontend
+npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Start the frontend
+npm start
+
+# In a new terminal: setup backend
+cd ../backend
+pip install -r requirements.txt
+
+# Run FastAPI server
+uvicorn main:app --reload
+🧪 Usage
+Register/Login using Firebase Auth
+
+Choose a track (DSA, Algorithms, CP Basics)
+
+Start solving challenges with AI-powered hints
+
+Earn blockchain-verified badges as you progress
+
+Share your profile and grow your coding rep
+
+💡 Roadmap
+ Code editor with auto-eval and AI hints
+
+ Smart contract deployment for credential minting
+
+ Leaderboards and community challenges
+
+ AI model fine-tuning for problem difficulty
+
+ Multi-chain support (Solana, Polygon)
+
+🤝 Contributing
+Pull requests are welcome! If you have ideas, feel free to fork and improve the platform. Open an issue first if you want to discuss major changes.
+
+📄 License
+MIT License. See LICENSE file for more details.
+
+🌐 Live Demo
+🔗 BlockCoder (Coming Soon)
+
+Let me know if you want to customize the tone (professional/casual) or structure, or if you want to include screenshots, badges, or demo videos too.
